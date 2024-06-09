@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Հայերեն տպելու խաղ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Սովորիր հայերեն տպել</h1>
+        <p>Քանի՞ բառ ես ուզում պարապել:</p>
+        <input type="number" id="numWords" min="1" placeholder="Բառերի քանակը">
+        <button id="startButton">Սկսել Խաղը</button>
+        <br>
+        <button id="playButton" style="display:none;">Լսել բառը</button>
+        <input type="text" id="inputWord" placeholder="Տպիր բառը այստեղ" style="display:none;">
+        <button id="checkButton" style="display:none;">Ստուգել</button>
+        <p id="feedback"></p>
+        <a id="completionLink" href="#" style="display:none;">Ապրես, սեղմիր այս հղման վրա, որ բացես Սուպեր Մարիո խաղը</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
